@@ -1,0 +1,22 @@
+$primaryBlack: black;
+$primaryLight: white;
+$accentColor: #5b9e2e;
+$backgroundColor: rgb(41, 41, 41);
+$cardColor: rgb(49, 49, 49);
+$borderColor: rgb(107, 107, 107);
+@import '_themes', 
+        '_fonts',
+        '_html', 
+        '_timeline', 
+        '_bio', 
+        '_hero', 
+        '_contact', 
+        '_projects',
+        '_scrollbar',
+        '_license';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

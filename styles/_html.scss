@@ -1,0 +1,46 @@
+html[data-theme="dark"] {
+    background-color: $darkbg;
+    color: $darktext;
+    h2 {
+        border-left: 6px solid $darktext;
+    }
+    .gradient {
+        background: #292929;
+        background: linear-gradient(180deg, rgba(41, 41, 41, 1) 37%, rgba(91, 158, 46, 1) 99%);
+    }
+}
+
+html[data-theme="light"] {
+    background-color: $lightbg;
+    color: $lighttext;
+    h2 {
+        border-left: 6px solid $lighttext;
+    }
+    .gradient {
+        background: #FFFAD2;
+        background: linear-gradient(180deg, rgba(255, 250, 210, 1) 37%, rgba(91, 158, 46, 1) 99%);
+    }
+}
+
+
+html {
+    font-family: $montserrat;
+    letter-spacing: 1px;
+    scroll-behavior: smooth;
+    transition: 0.2s all ease-in-out;
+    h2 {
+        padding-left: 5px;
+        margin-bottom: 20px;
+        font-size: 32px;
+    }
+}
+
+.gradient {
+    height: 200px;
+}
+
+footer {
+    height: 150px;
+    background-color: $darklink;
+    padding: 20px 0;
+}
